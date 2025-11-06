@@ -3,27 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 394 ms
+  VITE v5.4.20  ready in 334 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.1.84:3000/
-6:10:28 AM [vite] Pre-transform error: Failed to resolve import "aos" from "src/App.jsx". Does the file exist?
-6:10:29 AM [vite] Internal server error: Failed to resolve import "aos" from "src/App.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/App.jsx:14:32
-  11 |    useEffect(() => {
-  12 |      const loadAOS = async () => {
-  13 |        const AOS = (await import("aos")).default;
-     |                                  ^
-  14 |        await import("aos/dist/aos.css");
-  15 |        AOS.init({ duration: 700, once: true, easing: "ease-out-cubic" });
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 9)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
